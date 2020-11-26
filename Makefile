@@ -1,6 +1,4 @@
-# list
-test:list.c test.c yuesflist.c
-	gcc -g list.c test.c -o list1
-	gcc -g yuesflist.c -o list2
-	./list1 
-	./list2
+#sort
+test:sort.c test.c
+	gcc -g sort.c test.c -o sort
+	./sort
